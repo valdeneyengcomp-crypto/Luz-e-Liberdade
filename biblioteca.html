@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca - A ∴ R ∴ L ∴ S ∴ LUZ E LIBERDADE TUCURUIENSE - N° 1910</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#051937">
+    <link rel="apple-touch-icon" href="https://lh3.googleusercontent.com/d/1CyAHbjIMnVZj5ZPHOiWjFVAnV4uyLlNc">
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js')
+                    .catch(err => console.log('Erro no Service Worker:', err));
+            });
+        }
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }

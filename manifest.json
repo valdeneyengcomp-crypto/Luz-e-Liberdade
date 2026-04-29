@@ -1,0 +1,16 @@
+{
+  "name": "Luz e Liberdade",
+  "short_name": "Luz e Liberdade",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#051937",
+  "theme_color": "#051937",
+  "icons": [
+    {
+      "src": "https://lh3.googleusercontent.com/d/1CyAHbjIMnVZj5ZPHOiWjFVAnV4uyLlNc",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
