@@ -1,0 +1,22 @@
+/* Definição de Variáveis e Classes Globais */
+:root {
+    --gold: #d4af37;
+    --dark-bg: #1a202c;
+}
+
+.navbar {
+    background-color: var(--dark-bg);
+    border-bottom: 2px solid var(--gold);
+    padding: 1rem;
+}
+
+.accent-gold {
+    color: var(--gold);
+}
+
+.card-custom {
+    background: white;
+    border-top: 4px solid var(--gold);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
